@@ -1,14 +1,19 @@
 {
   "name": "nodecanvas",
   "version": "1.0.0",
-  "description": "Interactive graph-based dashboard",
+  "private": true,
   "scripts": {
-    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
-    "start:backend": "cd backend && npm start",
-    "start:frontend": "cd frontend && npm run dev",
-    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+    "start": "node backend/server.cjs",
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "concurrently \"cd frontend && npm start\" \"node backend/server.cjs\"",
+    "install-all": "npm install && cd frontend && npm install"
   },
-  "devDependencies": {
-    "concurrently": "^8.2.1"
-  }
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "workspaces": [
+    "frontend"
+  ]
 }

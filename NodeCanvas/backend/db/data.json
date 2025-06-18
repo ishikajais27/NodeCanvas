@@ -6,21 +6,10 @@
       "latency": 120,
       "errorRate": 0.5,
       "traffic": 45,
-      "x": 347.69305625736445,
-      "y": -342.39067830032576,
+      "x": 96.81141323198989,
+      "y": -130.60061851025458,
       "type": "frontend",
       "version": "1.2.3"
-    },
-    {
-      "id": "service-2",
-      "name": "Auth Service",
-      "latency": 80,
-      "errorRate": 0.2,
-      "traffic": 30,
-      "x": -146.14856946207036,
-      "y": -295.0483719863139,
-      "type": "authentication",
-      "version": "2.0.1"
     },
     {
       "id": "service-3",
@@ -28,221 +17,10 @@
       "latency": 150,
       "errorRate": 0.1,
       "traffic": 60,
-      "x": 200,
-      "y": 100,
+      "x": -78.3428076991845,
+      "y": -1.832734524091876,
       "type": "database",
       "version": "3.1.4"
-    },
-    {
-      "id": "service-4",
-      "name": "Payment Service",
-      "latency": 95,
-      "errorRate": 0.3,
-      "traffic": 25,
-      "x": -288.1388951293036,
-      "y": 90.67082096718222,
-      "type": "payment",
-      "version": "1.5.0"
-    },
-    {
-      "id": "service-5",
-      "name": "Notification Service",
-      "latency": 110,
-      "errorRate": 0.4,
-      "traffic": 15,
-      "x": -407.85175769453645,
-      "y": -232.22920977617827,
-      "type": "notification",
-      "version": "2.2.0"
-    },
-    {
-      "id": "service-268",
-      "name": "Service 342",
-      "latency": 60,
-      "errorRate": "0.59",
-      "traffic": 48,
-      "x": 299.6522482388313,
-      "y": -184.26379753377034
-    },
-    {
-      "id": "service-1750181188927",
-      "name": "Service 327",
-      "latency": 151,
-      "errorRate": "0.41",
-      "traffic": 3,
-      "x": 124.14229335314414,
-      "y": 477.61543068571206
-    },
-    {
-      "id": "service-1750181192388",
-      "name": "Service 259",
-      "latency": 118,
-      "errorRate": "0.85",
-      "traffic": 24,
-      "x": 178.48715568047442,
-      "y": 260.58728492653285
-    },
-    {
-      "id": "service-1750181212738",
-      "name": "Service 57",
-      "latency": 126,
-      "errorRate": "0.48",
-      "traffic": 49,
-      "x": 375.5931924722177,
-      "y": 105.61468899453591
-    },
-    {
-      "id": "service-1750181218847",
-      "name": "Service 156",
-      "latency": 41,
-      "errorRate": "0.74",
-      "traffic": 45,
-      "x": 64.97978212029071,
-      "y": 136.7519687214208
-    },
-    {
-      "id": "service-1750181219683",
-      "name": "Service 176",
-      "latency": 188,
-      "errorRate": "0.58",
-      "traffic": 13,
-      "x": 79.80062430834111,
-      "y": 481.9152113944739
-    },
-    {
-      "id": "service-1750181220365",
-      "name": "Service 264",
-      "latency": 31,
-      "errorRate": "0.20",
-      "traffic": 32,
-      "x": 481.64624930000934,
-      "y": 191.05186359074915
-    },
-    {
-      "id": "service-1750181220585",
-      "name": "Service 885",
-      "latency": 121,
-      "errorRate": "0.94",
-      "traffic": 45,
-      "x": 264.9014035511962,
-      "y": 342.8876572272067
-    },
-    {
-      "id": "service-1750181221057",
-      "name": "Service 267",
-      "latency": 1,
-      "errorRate": "0.93",
-      "traffic": 22,
-      "x": 31.276179518197665,
-      "y": 84.19159534139465
-    },
-    {
-      "id": "service-1750181221222",
-      "name": "Service 154",
-      "latency": 159,
-      "errorRate": "0.73",
-      "traffic": 37,
-      "x": 153.6675369623886,
-      "y": 258.16594846473174
-    },
-    {
-      "id": "service-1750181221374",
-      "name": "Service 746",
-      "latency": 149,
-      "errorRate": "0.45",
-      "traffic": 5,
-      "x": 369.55067322382234,
-      "y": 489.56219938925483
-    },
-    {
-      "id": "service-1750181221535",
-      "name": "Service 256",
-      "latency": 175,
-      "errorRate": "0.31",
-      "traffic": 18,
-      "x": 482.7861005303688,
-      "y": 412.48511493302556
-    },
-    {
-      "id": "service-1750181221694",
-      "name": "Service 647",
-      "latency": 199,
-      "errorRate": "0.52",
-      "traffic": 8,
-      "x": 225.75696360670705,
-      "y": 471.3193369023045
-    },
-    {
-      "id": "service-1750181221823",
-      "name": "Service 148",
-      "latency": 41,
-      "errorRate": "0.66",
-      "traffic": 14,
-      "x": 378.0563034437983,
-      "y": 107.99777683425471
-    },
-    {
-      "id": "service-1750181221962",
-      "name": "Service 939",
-      "latency": 22,
-      "errorRate": "0.93",
-      "traffic": 47,
-      "x": 65.90669401803333,
-      "y": 160.78914810261702
-    },
-    {
-      "id": "service-1750181222118",
-      "name": "Service 655",
-      "latency": 48,
-      "errorRate": "0.24",
-      "traffic": 11,
-      "x": 472.24983623068704,
-      "y": 154.43717980314503
-    },
-    {
-      "id": "service-1750181222284",
-      "name": "Service 482",
-      "latency": 7,
-      "errorRate": "0.44",
-      "traffic": 18,
-      "x": 116.01010098562858,
-      "y": 359.7960351624873
-    },
-    {
-      "id": "service-1750181222437",
-      "name": "Service 312",
-      "latency": 113,
-      "errorRate": "0.34",
-      "traffic": 32,
-      "x": 268.1985520790171,
-      "y": 57.50663115022997
-    },
-    {
-      "id": "service-1750181222592",
-      "name": "Service 2",
-      "latency": 196,
-      "errorRate": "0.60",
-      "traffic": 10,
-      "x": 425.08729117031675,
-      "y": 13.876781753598856
-    },
-    {
-      "id": "service-1750181222749",
-      "name": "Service 122",
-      "latency": 119,
-      "errorRate": "0.28",
-      "traffic": 11,
-      "x": 488.40773959742745,
-      "y": 65.18285636191762
-    },
-    {
-      "id": "service-1750181222913",
-      "name": "Service 461",
-      "latency": 38,
-      "errorRate": "0.61",
-      "traffic": 34,
-      "x": 25.926639799869868,
-      "y": 387.85141207111377
     },
     {
       "id": "service-1750181223083",
@@ -250,387 +28,97 @@
       "latency": 128,
       "errorRate": "0.83",
       "traffic": 30,
-      "x": 204.747595597826,
-      "y": 44.57507854569387
+      "x": 646.3803083216777,
+      "y": -80.66914121651854
     },
     {
-      "id": "service-1750181223257",
-      "name": "Service 395",
-      "latency": 193,
+      "id": "service-892",
+      "name": "Service-473",
+      "latency": 57,
+      "errorRate": "0.05",
+      "traffic": 46,
+      "x": 163.7380673555594,
+      "y": 238.0036991354014
+    },
+    {
+      "id": "service-125",
+      "name": "Service-461",
+      "latency": 205,
       "errorRate": "0.97",
-      "traffic": 1,
-      "x": 242.1988253548946,
-      "y": 72.10387620676289
+      "traffic": 58,
+      "x": 361.2729465177125,
+      "y": 171.06329666896795
     },
     {
-      "id": "service-1750181223426",
-      "name": "Service 164",
-      "latency": 126,
-      "errorRate": "0.82",
-      "traffic": 13,
-      "x": 327.0957468944683,
-      "y": 45.47396787873359
-    },
-    {
-      "id": "service-1750181223601",
-      "name": "Service 902",
-      "latency": 119,
-      "errorRate": "0.68",
-      "traffic": 43,
-      "x": 75.90219912318436,
-      "y": 476.0243152682877
-    },
-    {
-      "id": "service-1750181223755",
-      "name": "Service 578",
-      "latency": 196,
-      "errorRate": "0.09",
-      "traffic": 39,
-      "x": 113.84576167281313,
-      "y": 257.03938547874196
-    },
-    {
-      "id": "service-1750181223944",
-      "name": "Service 67",
-      "latency": 140,
-      "errorRate": "0.25",
-      "traffic": 13,
-      "x": 149.23661708209013,
-      "y": 382.57557434782024
-    },
-    {
-      "id": "service-1750181224097",
-      "name": "Service 869",
-      "latency": 183,
-      "errorRate": "0.44",
-      "traffic": 9,
-      "x": 83.0832507944425,
-      "y": 150.61412110315558
-    },
-    {
-      "id": "service-1750181224252",
-      "name": "Service 770",
-      "latency": 93,
-      "errorRate": "0.17",
-      "traffic": 9,
-      "x": 356.3671600726169,
-      "y": 218.32392099969533
-    },
-    {
-      "id": "service-1750181224413",
-      "name": "Service 617",
-      "latency": 5,
-      "errorRate": "0.10",
-      "traffic": 29,
-      "x": 210.2343854770551,
-      "y": 356.49959438609005
-    },
-    {
-      "id": "service-1750181224582",
-      "name": "Service 949",
-      "latency": 50,
-      "errorRate": "0.93",
-      "traffic": 9,
-      "x": 251.36645827273446,
-      "y": 476.87028397585385
-    },
-    {
-      "id": "service-1750181224765",
-      "name": "Service 339",
-      "latency": 139,
-      "errorRate": "0.48",
-      "traffic": 36,
-      "x": 463.21377756355446,
-      "y": 251.24881268282888
-    },
-    {
-      "id": "service-1750181224933",
-      "name": "Service 685",
-      "latency": 79,
-      "errorRate": "0.78",
-      "traffic": 3,
-      "x": 89.01881985789184,
-      "y": 396.0264554500263
-    },
-    {
-      "id": "service-1750181225100",
-      "name": "Service 746",
-      "latency": 67,
-      "errorRate": "0.53",
-      "traffic": 32,
-      "x": 31.96584970057348,
-      "y": 293.21350453966835
-    },
-    {
-      "id": "service-1750181225271",
-      "name": "Service 131",
-      "latency": 88,
-      "errorRate": "0.52",
-      "traffic": 10,
-      "x": 312.7596467671059,
-      "y": 361.9929885800377
-    },
-    {
-      "id": "service-1750181225436",
-      "name": "Service 441",
-      "latency": 26,
-      "errorRate": "0.59",
-      "traffic": 28,
-      "x": 32.23687642137857,
-      "y": 87.13248495272875
-    },
-    {
-      "id": "service-1750181225594",
-      "name": "Service 994",
-      "latency": 62,
-      "errorRate": "0.40",
-      "traffic": 4,
-      "x": 330.11839284939344,
-      "y": 120.97804071658553
-    },
-    {
-      "id": "service-1750181225761",
-      "name": "Service 571",
-      "latency": 104,
-      "errorRate": "0.40",
-      "traffic": 24,
-      "x": 488.4022136630042,
-      "y": 243.13734367303786
-    },
-    {
-      "id": "service-1750181225926",
-      "name": "Service 202",
-      "latency": 13,
-      "errorRate": "0.62",
-      "traffic": 25,
-      "x": 125.0809297139206,
-      "y": 469.5049403417545
-    },
-    {
-      "id": "service-1750181226109",
-      "name": "Service 372",
-      "latency": 147,
-      "errorRate": "0.01",
-      "traffic": 3,
-      "x": 111.16877396414199,
-      "y": 64.35769248761525
-    },
-    {
-      "id": "service-1750181226286",
-      "name": "Service 670",
-      "latency": 66,
-      "errorRate": "0.65",
-      "traffic": 42,
-      "x": 46.315435246259696,
-      "y": 223.61905994692987
-    },
-    {
-      "id": "service-1750181226518",
-      "name": "Service 190",
-      "latency": 139,
-      "errorRate": "0.02",
-      "traffic": 26,
-      "x": 428.94403597724227,
-      "y": 44.82792296336518
-    },
-    {
-      "id": "service-1750181367994",
-      "name": "Service 535",
-      "latency": 188,
-      "errorRate": "0.55",
+      "id": "service-733",
+      "name": "Service-155",
+      "latency": 217,
+      "errorRate": "0.16",
       "traffic": 47,
-      "x": 208.3145074383242,
-      "y": 311.7485325017852
+      "x": 312.19226367012345,
+      "y": -337.04302366155855
     },
     {
-      "id": "service-1750181368194",
-      "name": "Service 386",
-      "latency": 85,
-      "errorRate": "0.29",
-      "traffic": 20,
-      "x": 158.69971782888507,
-      "y": 342.2984807572208
+      "id": "service-671",
+      "name": "Service-429",
+      "latency": 204,
+      "errorRate": "0.56",
+      "traffic": 27,
+      "x": 520.642733312226,
+      "y": 147.52697836924918
     },
     {
-      "id": "service-1750181368385",
-      "name": "Service 341",
-      "latency": 169,
-      "errorRate": "0.44",
-      "traffic": 26,
-      "x": 305.0764564231108,
-      "y": 214.2164091797468
-    },
-    {
-      "id": "service-1750181368552",
-      "name": "Service 877",
-      "latency": 55,
-      "errorRate": "0.35",
-      "traffic": 1,
-      "x": 191.58202689072613,
-      "y": 348.6493807642956
-    },
-    {
-      "id": "service-1750181368726",
-      "name": "Service 335",
-      "latency": 38,
-      "errorRate": "0.61",
-      "traffic": 26,
-      "x": 260.59889519227045,
-      "y": 304.4159996696749
-    },
-    {
-      "id": "service-1750181368895",
-      "name": "Service 248",
-      "latency": 132,
-      "errorRate": "0.86",
-      "traffic": 34,
-      "x": 297.82721516798046,
-      "y": 192.44727906967233
-    },
-    {
-      "id": "service-1750181369050",
-      "name": "Service 516",
-      "latency": 189,
-      "errorRate": "0.79",
-      "traffic": 25,
-      "x": 171.1802287209676,
-      "y": 372.1792104551598
-    },
-    {
-      "id": "service-1750181369238",
-      "name": "Service 557",
-      "latency": 158,
-      "errorRate": "0.79",
-      "traffic": 13,
-      "x": 297.45436223734407,
-      "y": 219.12271539552046
-    },
-    {
-      "id": "service-1750181369427",
-      "name": "Service 367",
-      "latency": 92,
-      "errorRate": "0.94",
-      "traffic": 2,
-      "x": 354.78818941552083,
-      "y": 265.7528544616233
-    },
-    {
-      "id": "service-1750181369617",
-      "name": "Service 786",
-      "latency": 142,
-      "errorRate": "0.73",
-      "traffic": 42,
-      "x": 364.4414732068125,
-      "y": 194.2888890336815
-    },
-    {
-      "id": "service-1750181369765",
-      "name": "Service 811",
-      "latency": 101,
-      "errorRate": "0.02",
-      "traffic": 36,
-      "x": 275.87220070777545,
-      "y": 394.77161761549326
-    },
-    {
-      "id": "service-387",
-      "name": "Service 354",
-      "latency": 196,
-      "errorRate": "0.68",
-      "traffic": 26,
-      "x": 102.41063184199453,
-      "y": 258.7779419854182
-    },
-    {
-      "id": "service-502",
-      "name": "Service 190",
-      "latency": 152,
-      "errorRate": "0.89",
-      "traffic": 17,
-      "x": 354.5837778205573,
-      "y": 369.19108834327415
-    },
-    {
-      "id": "service-824",
-      "name": "Service 737",
-      "latency": 136,
-      "errorRate": "0.66",
-      "traffic": 48,
-      "x": 229.9931595041665,
-      "y": 324.6025020892394
-    },
-    {
-      "id": "service-265",
-      "name": "Service 267",
-      "latency": 40,
-      "errorRate": "0.80",
-      "traffic": 15,
-      "x": 394.3430236139087,
-      "y": 253.45161728773408
-    },
-    {
-      "id": "service-51",
-      "name": "Service 93",
-      "latency": 87,
-      "errorRate": "0.46",
-      "traffic": 36,
-      "x": 276.44054943334334,
-      "y": 236.82096057752557
-    },
-    {
-      "id": "service-900",
-      "name": "Service 62",
-      "latency": 81,
-      "errorRate": "0.34",
-      "traffic": 24,
-      "x": 233.32636452717713,
-      "y": 271.3540886579388
-    },
-    {
-      "id": "service-173",
-      "name": "Service 138",
-      "latency": 105,
-      "errorRate": "0.50",
-      "traffic": 36,
-      "x": 177.8411577447881,
-      "y": 335.6935093971592
+      "id": "service-753",
+      "name": "Service-108",
+      "latency": 218,
+      "errorRate": "0.49",
+      "traffic": 49,
+      "x": 15.64440947925977,
+      "y": 368.74356205818145
     }
   ],
   "edges": [
     {
-      "source": "service-1",
-      "target": "service-2",
-      "traffic": 25,
-      "protocol": "HTTP/2",
-      "latency": 45
-    },
-    {
-      "source": "service-2",
-      "target": "service-3",
-      "traffic": 15,
-      "protocol": "gRPC",
-      "latency": 30
-    },
-    {
-      "source": "service-1",
-      "target": "service-4",
+      "source": "service-3",
+      "target": "service-892",
       "traffic": 10,
       "protocol": "HTTP",
-      "latency": 60
+      "errorRate": "0.22"
     },
     {
-      "source": "service-4",
-      "target": "service-5",
-      "traffic": 5,
-      "protocol": "WebSocket",
-      "latency": 25
+      "source": "service-1750181223083",
+      "target": "service-1",
+      "traffic": 10,
+      "protocol": "HTTP",
+      "errorRate": "0.16"
     },
     {
-      "source": "service-3",
-      "target": "service-5",
-      "traffic": 8,
-      "protocol": "gRPC",
-      "latency": 35
+      "source": "service-125",
+      "target": "service-892",
+      "traffic": 10,
+      "protocol": "HTTP",
+      "errorRate": "0.24"
+    },
+    {
+      "source": "service-671",
+      "target": "service-1",
+      "traffic": 10,
+      "protocol": "HTTP",
+      "errorRate": "0.83"
+    },
+    {
+      "source": "service-1",
+      "target": "service-3",
+      "traffic": 10,
+      "protocol": "HTTP",
+      "errorRate": "0.08"
+    },
+    {
+      "source": "service-1750181223083",
+      "target": "service-733",
+      "traffic": 10,
+      "protocol": "HTTP",
+      "errorRate": "0.68"
     }
   ]
 }

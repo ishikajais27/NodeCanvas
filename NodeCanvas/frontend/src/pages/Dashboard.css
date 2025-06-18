@@ -1,11 +1,7 @@
-.dashboard {
-  display: flex;
-  flex-grow: 1;
-}
-
 .main-content {
-  flex-grow: 1;
+  flex: 1;
   padding: 20px;
+  overflow: auto;
 }
 
 .content-header {
@@ -15,90 +11,38 @@
   margin-bottom: 20px;
 }
 
-.tabs {
+.view-toggle {
   display: flex;
   gap: 10px;
 }
 
-.tabs button {
+.view-toggle button {
   padding: 8px 16px;
-  background-color: #eee;
-  border: none;
-  border-radius: 4px;
+  border: 1px solid #ddd;
+  background: white;
   cursor: pointer;
+  border-radius: 4px;
 }
 
-.tabs button.active {
-  background-color: #4e79a7;
+.view-toggle button.active {
+  background: #6366f1;
   color: white;
+  border-color: #6366f1;
 }
 
 .graph-view {
-  margin-bottom: 20px;
+  height: calc(100vh - 150px);
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .list-view {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  height: calc(100vh - 150px);
+  overflow-y: auto;
 }
 
-.list-view ul {
-  list-style: none;
-}
-
-.list-view li {
-  padding: 10px 0;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  align-items: center;
-}
-
-.node-color {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.controls {
-  display: flex;
-  gap: 20px;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.control-group {
-  flex: 1;
-}
-
-.control-group h4 {
-  margin-bottom: 10px;
-}
-
-.control-group input,
-.control-group select {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.control-group button {
-  padding: 8px 16px;
-  background-color: #4e79a7;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.control-group button:hover {
-  background-color: #3a5f8a;
+.service-list {
+  display: grid;
+  gap: 15px;
 }
