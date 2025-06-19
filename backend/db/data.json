@@ -12,24 +12,13 @@
       "version": "1.2.3"
     },
     {
-      "id": "service-3",
-      "name": "Database Service",
-      "latency": 150,
-      "errorRate": 0.1,
-      "traffic": 60,
-      "x": -353.04819039776737,
-      "y": 3.718739732735628,
-      "type": "database",
-      "version": "3.1.4"
-    },
-    {
       "id": "service-585",
       "name": "Service-233",
       "latency": 232,
       "errorRate": "0.77",
       "traffic": 17,
-      "x": -313.3386323938792,
-      "y": -333.7192148854469
+      "x": -431.3386323938792,
+      "y": -316.3858815521136
     },
     {
       "id": "service-194",
@@ -39,36 +28,54 @@
       "traffic": 12,
       "x": -95.63478268374735,
       "y": -250.90678155055934
+    },
+    {
+      "id": "service-814",
+      "name": "Service-608",
+      "latency": 130,
+      "errorRate": "0.77",
+      "traffic": 16,
+      "x": 498.19823278232207,
+      "y": 134.64479823098767
+    },
+    {
+      "id": "service-465",
+      "name": "Service-647",
+      "latency": 157,
+      "errorRate": "0.16",
+      "traffic": 34,
+      "x": -263.42084061606454,
+      "y": -63.577188043534804
     }
   ],
   "edges": [
-    {
-      "source": "service-1",
-      "target": "service-3",
-      "traffic": 10,
-      "protocol": "HTTP",
-      "errorRate": "0.08"
-    },
-    {
-      "source": "service-585",
-      "target": "service-3",
-      "traffic": 10,
-      "protocol": "HTTP",
-      "errorRate": "0.11"
-    },
-    {
-      "source": "service-194",
-      "target": "service-3",
-      "traffic": 10,
-      "protocol": "HTTP",
-      "errorRate": "0.39"
-    },
     {
       "source": "service-585",
       "target": "service-1",
       "traffic": 10,
       "protocol": "HTTP",
       "errorRate": "0.73"
+    },
+    {
+      "source": "service-194",
+      "target": "service-465",
+      "traffic": 10,
+      "protocol": "HTTP",
+      "errorRate": "0.18"
+    },
+    {
+      "source": "service-194",
+      "target": "service-585",
+      "traffic": 10,
+      "protocol": "HTTP",
+      "errorRate": "0.47"
+    },
+    {
+      "source": "service-1",
+      "target": "service-194",
+      "traffic": 10,
+      "protocol": "HTTP",
+      "errorRate": "0.87"
     }
   ]
 }
