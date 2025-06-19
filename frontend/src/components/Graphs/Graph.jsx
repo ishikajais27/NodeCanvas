@@ -42,7 +42,9 @@ const Graph = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
+        console.log('Fetching data from:', API_BASE_URL)
         const data = await fetchGraphData()
+        console.log('Received data:', data)
         updateGraphData(data)
         setIsLoading(false)
       } catch (error) {
