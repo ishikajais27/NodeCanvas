@@ -39,13 +39,11 @@ const Graph = () => {
   const [showSearchPanel, setShowSearchPanel] = useState(false)
 
   // Load initial data
+  const API_BASE_URL = 'https://nodecanvas-backend01.onrender.com/api'
   useEffect(() => {
     const loadData = async () => {
       try {
-        console.log(
-          'Fetching data from:',
-          'https://nodecanvas-backend01.onrender.com/api'
-        )
+        console.log('Fetching data from:', API_BASE_URL)
         const data = await fetchGraphData()
         console.log('Received data:', data)
         updateGraphData(data)
