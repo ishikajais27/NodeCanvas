@@ -6,8 +6,8 @@
       "latency": 120,
       "errorRate": 0.5,
       "traffic": 45,
-      "x": -539.861419874825,
-      "y": -236.32893041413467,
+      "x": -541.2167466721163,
+      "y": -211.25538466424524,
       "type": "frontend",
       "version": "1.2.3"
     },
@@ -17,19 +17,10 @@
       "latency": 150,
       "errorRate": 0.1,
       "traffic": 60,
-      "x": -525.029079572047,
-      "y": 11.613752816950637,
+      "x": -451.0481903977673,
+      "y": 55.05207306606897,
       "type": "database",
       "version": "3.1.4"
-    },
-    {
-      "id": "service-892",
-      "name": "Service-473",
-      "latency": 57,
-      "errorRate": "0.05",
-      "traffic": 46,
-      "x": 83.72584743085554,
-      "y": 62.03903069572755
     },
     {
       "id": "service-585",
@@ -37,8 +28,8 @@
       "latency": 232,
       "errorRate": "0.77",
       "traffic": 17,
-      "x": 146.31561512135488,
-      "y": -224.2375857955072
+      "x": -131.96112397455943,
+      "y": -175.36947551524906
     },
     {
       "id": "service-194",
@@ -46,31 +37,17 @@
       "latency": 126,
       "errorRate": "0.07",
       "traffic": 12,
-      "x": -209.2484211022561,
-      "y": -253.73091554810267
+      "x": -320.96811601708066,
+      "y": -206.90678155055934
     }
   ],
   "edges": [
-    {
-      "source": "service-3",
-      "target": "service-892",
-      "traffic": 10,
-      "protocol": "HTTP",
-      "errorRate": "0.22"
-    },
     {
       "source": "service-1",
       "target": "service-3",
       "traffic": 10,
       "protocol": "HTTP",
       "errorRate": "0.08"
-    },
-    {
-      "source": "service-585",
-      "target": "service-892",
-      "traffic": 10,
-      "protocol": "HTTP",
-      "errorRate": "0.92"
     },
     {
       "source": "service-585",
@@ -81,10 +58,10 @@
     },
     {
       "source": "service-194",
-      "target": "service-892",
+      "target": "service-3",
       "traffic": 10,
       "protocol": "HTTP",
-      "errorRate": "0.36"
+      "errorRate": "0.39"
     }
   ]
 }

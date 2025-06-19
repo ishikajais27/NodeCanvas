@@ -227,3 +227,25 @@ export const deleteEdge = async (source, target) => {
     throw new Error(errorData.error || 'Failed to delete edge')
   }
 }
+
+// Add these functions to api.js
+
+export const searchNodes = async (query) => {
+  const response = await fetch(
+    `${API_BASE_URL}/nodes/search?q=${encodeURIComponent(query)}`
+  )
+  if (!response.ok) {
+    throw new Error(`Failed to search nodes: ${response.status}`)
+  }
+  return await response.json()
+}
+
+export const filterNodesByType = async (type) => {
+  const response = await fetch(
+    `${API_BASE_URL}/nodes/filter?type=${encodeURIComponent(type)}`
+  )
+  if (!response.ok) {
+    throw new Error(`Failed to filter nodes: ${response.status}`)
+  }
+  return await response.json()
+}

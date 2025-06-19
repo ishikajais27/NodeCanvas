@@ -176,4 +176,40 @@ router.delete('/edges', (req, res) => {
   }
 })
 
+// Add these routes before module.exports in api.cjs
+
+// Search nodes by name
+router.get('/nodes/search', (req, res) => {
+  try {
+    const data = readData()
+    const query = req.query.q?.toLowerCase() || ''
+
+    const filteredNodes = data.nodes.filter((node) =>
+      node.name.toLowerCase().includes(query)
+    )
+
+    res.json(filteredNodes)
+  } catch (error) {
+    console.error('Error searching nodes:', error)
+    res.status(500).json({ error: 'Failed to search nodes' })
+  }
+})
+
+// Filter nodes by type
+router.get('/nodes/filter', (req, res) => {
+  try {
+    const data = readData()
+    const type = req.query.type?.toLowerCase() || ''
+
+    const filteredNodes = data.nodes.filter(
+      (node) => node.type?.toLowerCase() === type
+    )
+
+    res.json(filteredNodes)
+  } catch (error) {
+    console.error('Error filtering nodes:', error)
+    res.status(500).json({ error: 'Failed to filter nodes' })
+  }
+})
+
 module.exports = router
