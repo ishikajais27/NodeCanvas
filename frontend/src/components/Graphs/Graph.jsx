@@ -42,7 +42,10 @@ const Graph = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        console.log('Fetching data from:', API_BASE_URL)
+        console.log(
+          'Fetching data from:',
+          'https://nodecanvas-backend01.onrender.com/api'
+        )
         const data = await fetchGraphData()
         console.log('Received data:', data)
         updateGraphData(data)
