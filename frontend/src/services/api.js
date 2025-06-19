@@ -1,4 +1,6 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  'https://nodecanvas-backend01.onrender.com'
 
 export const fetchGraphData = async () => {
   const response = await fetch(`${API_BASE_URL}/graph`)
