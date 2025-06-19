@@ -1,0 +1,19 @@
+{
+  "name": "nodecanvas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.cjs",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "vercel-build": "npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}

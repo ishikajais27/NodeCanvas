@@ -5,7 +5,8 @@
   "main": "server.cjs",
   "scripts": {
     "start": "node server.cjs",
-    "dev": "nodemon server.cjs"
+    "dev": "nodemon server.cjs",
+    "vercel-build": "echo 'Skipping backend build for Vercel'"
   },
   "dependencies": {
     "cors": "^2.8.5",
